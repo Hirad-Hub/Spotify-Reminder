@@ -29,7 +29,7 @@ Clone or download this repository
 bash
 Copy
 Edit
-git clone https://github.com/your-username/spotify-reminder.git
+git clone https://github.com/your-username/spotify-reminder.git](https://github.com/Hirad-Hub/Spotify-Reminder.git
 Open Chrome and go to
 
 arduino
