@@ -1,26 +1,38 @@
 Spotify Reminder 🎵⏰
 Do you usually find nice music on Spotify but have no time to listen to it? Then this Chrome extension is for you.
+
 Spotify Reminder lets you set a reminder for any Spotify track, album, or playlist. You simply pick a date and time, paste the Spotify URL, and the extension will remind you to listen to it at the perfect moment.
 
 
 🔧 Features
 Set a reminder for any Spotify URL
+
 Choose the exact date and time
+
 Get a browser notification when it’s time
+
 Clean and simple interface
 
 
 📦 Files
+
 manifest.json: Chrome extension configuration
+
 popup.html: UI for adding reminders
+
 popup.js: Handles reminder creation
+
 background.js: Manages the scheduled notifications
+
 styles.css: Styling for the popup interface
 
 
 🧩 How to Install
+
 Clone or download this repository:
+
 git clone https://github.com/your-username/spotify-reminder.git](https://github.com/Hirad-Hub/Spotify-Reminder.git
+
 Open Chrome and go to
 
 arduino
