@@ -33,19 +33,17 @@ Clone or download this repository:
 
 git clone https://github.com/your-username/spotify-reminder.git](https://github.com/Hirad-Hub/Spotify-Reminder.git
 
-Open Chrome and go to
+Open Chrome and go to chrome://extensions/
 
-arduino
-Copy
-Edit
-chrome://extensions/
 Enable "Developer mode" in the top right.
 
 Click “Load unpacked” and select the folder where you saved the extension.
 
 You’ll now see Spotify Reminder in your extensions bar.
 
+
 🚀 How to Use
+
 Click the Spotify Reminder icon in your extensions bar.
 
 Paste a Spotify URL (track, album, or playlist).
@@ -56,24 +54,31 @@ Click Set Reminder.
 
 At the scheduled time, you’ll get a browser notification with a direct link to Spotify.
 
+
 ✅ Example Use Cases
+
 Heard a song in the middle of work? Set a reminder for after hours.
 
 Planning music for a future mood? Queue it with a time.
 
 Save a podcast for your commute.
 
+
 📌 Notes
+
 Make sure your Chrome notifications are enabled so you don’t miss the reminder.
 
 This extension works entirely locally in your browser—no data is sent anywhere.
 
+
 💡 Ideas for the Future
+
 Sync with Google Calendar or Apple Reminders
 
 Recurring reminders
 
 Playlist queue with multiple items
+
 
 Feel free to fork, improve, or submit issues.
 Enjoy your music, on your time. 🎧
