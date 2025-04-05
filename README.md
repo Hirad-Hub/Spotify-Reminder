@@ -1,4 +1,5 @@
 Spotify Reminder 🎵⏰
+
 Do you usually find nice music on Spotify but have no time to listen to it? Then this Chrome extension is for you.
 
 Spotify Reminder lets you set a reminder for any Spotify track, album, or playlist. You simply pick a date and time, paste the Spotify URL, and the extension will remind you to listen to it at the perfect moment.
