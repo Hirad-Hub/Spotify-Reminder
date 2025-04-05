@@ -1,0 +1,205 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 350px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 20px;
+  margin-top: 0;
+  color: #333;
+}
+
+h2 {
+  font-size: 16px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Make date and time inputs fully clickable */
+.date-wrapper,
+.time-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.date-wrapper input[type="date"],
+.time-wrapper input[type="time"] {
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+/* Fix for some browsers where the input calendar/clock icon might not be obvious */
+.date-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.time-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #3367d6;
+}
+
+#message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.hidden {
+  display: none;
+}
+
+.reminders-section {
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+#remindersList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.reminder-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.reminder-info {
+  flex-grow: 1;
+}
+
+.reminder-url {
+  color: #666;
+  word-break: break-all;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.reminder-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+}
+
+.edit-btn {
+  color: #4285f4;
+}
+
+.edit-btn:hover {
+  background-color: #e8f0fe;
+}
+
+.delete-btn {
+  color: #d93025;
+}
+
+.delete-btn:hover {
+  background-color: #f8d7da;
+}
+
+.no-reminders {
+  color: #666;
+  font-style: italic;
+  padding: 10px 0;
+}
+
+/* Edit mode styles */
+.edit-mode {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.edit-mode-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.cancel-btn {
+  background-color: #f1f3f4;
+  color: #5f6368;
+}
+
+.save-btn {
+  background-color: #4285f4;
+}
